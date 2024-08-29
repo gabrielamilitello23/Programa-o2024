@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borboletas e Suas Espécies</title>
+    <style>
+        /* Reset básico */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 0 10px;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            margin-top: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro, .species {
+            margin-bottom: 20px;
+        }
+
+        .species-item {
+            margin-bottom: 20px;
+        }
+
+        .species-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Borboletas e Suas Espécies</h1>
+        <p>Explore o fascinante mundo das borboletas!</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>O Fascínio das Borboletas</h2>
+            <p>As borboletas são insetos encantadores, conhecidos por suas cores vibrantes e padrões elaborados. Elas pertencem à ordem Lepidoptera e são encontradas em todo o mundo, desempenhando papéis importantes no ecossistema como polinizadoras.</p>
+        </section>
+
+        <section class="species">
+            <h2>Espécies de Borboletas</h2>
+
+            <article class="species-item">
+                <h3>1. Borboleta Monarca</h3>
+                <img src="https://borboletariodesaopaulo.com.br/wp-content/uploads/2024/03/borboleta-monarca-foto-macro.jpg">
+                <p> A Borboleta Monarca (Danaus plexippus) é conhecida por suas asas laranjas com bordas e pontos negros, e tem uma envergadura de 8 a 10 cm. Ela passa por quatro estágios de desenvolvimento: ovo, lagarta, crisálida e adulto. As lagartas se alimentam de folhas de plantas do gênero Asclepias.
+
+A Monarca é famosa por suas longas migrações, viajando até 4.800 km do Canadá e EUA até o México durante o outono e retornando na primavera. Durante a migração, usa sinais ambientais para navegação.
+
+Ela vive em prados, campos e jardins, preferindo áreas de vegetação densa para hibernação. Enfrenta ameaças como perda de habitat e mudanças climáticas, e esforços de conservação estão em andamento para proteger suas áreas de reprodução e hibernação.
+
+A Borboleta Monarca simboliza transformação e renovação, e é estudada para entender a navegação animal e o impacto ambiental.</p>
+            </article>
+
+            <article class="species-item">
+                <h3>2. Borboleta Morpho</h3>
+                <img src="https://s2-g1.glbimg.com/7CwLGuXjIEev45f-3bgeIZm3890=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/v/t/IToOlfSlyc9BYyHpDYzg/blue-morpho-ge222ac247-1920.jpg">
+                <p>A Borboleta Morpho é conhecida por suas asas grandes e vibrantes, que variam de azul elétrico a verde iridescente, e pode ter uma envergadura de até 20 cm. Seu ciclo de vida inclui ovo, lagarta, crisálida e adulto, com lagartas verdes e espinhosas e crisálidas camufladas.
+
+Ela vive principalmente em florestas tropicais da América Central e do Sul, onde as lagartas se alimentam de folhas específicas e os adultos de néctar de flores como banana e maracujá. As Morpho são conhecidas por seu voo rápido e errático, que ajuda a evitar predadores, e têm um papel importante como polinizadoras.
+
+Embora algumas espécies sejam comuns, a perda de habitat pode ameaçar suas populações. A Borboleta Morpho é valorizada por sua beleza e simboliza a riqueza das florestas tropicais.</p>
+            </article>
+
+            <article class="species-item">
+                <h3>3. Borboleta Admirável</h3>
+                <img src="https://img.freepik.com/fotos-premium/uma-borboleta-com-marcacoes-laranja-e-pretas-esta-sobre-um-fundo-branco_900101-24524.jpg">
+                <p>A Borboleta Admirável (Vanessa cardui), também conhecida como Pintassilgo, é uma borboleta de cores vibrantes, com asas laranja e manchas negras e brancas. Tem uma envergadura de 5 a 7 cm e passa por quatro estágios de desenvolvimento: ovo, lagarta, crisálida e adulto. 
+
+Ela é encontrada em jardins, campos e áreas abertas e é adaptável a diferentes ambientes. Os adultos se alimentam de néctar de flores, enquanto as lagartas comem folhas de urtiga e cardos. É uma espécie migratória, viajando longas distâncias para escapar de climas adversos. Geralmente, não está ameaçada e desempenha um papel importante como polinizadora.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mundo das Borboletas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
